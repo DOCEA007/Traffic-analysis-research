@@ -7,7 +7,7 @@ import os
 
 DOMAIN = input("Enter domain: ").strip() or "example.com"
 PORTS = {int(p) for p in (input("Enter ports (default 80,443): ").strip() or "80,443").split(",")}
-IDENTIFIER = input("Enter unique identifier for the process (exe path, process name or pid): ").strip()
+IDENTIFIER = input("Enter unique identifier for the process (exe path, process name or pid): ").strip() or "python"
 POLL_SECONDS = float(input("Enter delay between checks (default 0.5): ").strip() or "0.5")
 DNS_REFRESH_SECONDS = 60
 
