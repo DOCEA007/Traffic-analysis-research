@@ -3,7 +3,7 @@
 ## Automation:
 Known domain, known port, known timeframe ( because we send the request or know when the request will be sent). 
 
-## Utilities:
+## Utilities (before the actual Script):
 1. **Domain**: fe2cr.update.microsoft.com
 2. **Port**: 443
 3. **Command to test API**:
@@ -22,7 +22,6 @@ AntiSpyware Signature Version: 1.443.173.0
 AntiVirus Signature Version: 1.443.173.0
 ...
 ```
-4.
 
 ## Detection Script
 
